@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bản đồ số đặc khu Cô Tô</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image.png" href="/logo/logo.png">
+</head>
+<body>
+    <header>
+        <div id = "logo">
+            <div id="anhlogodoan"><img src="/logo/logo.png" width="60px"></div>
+            <h3 id = "namelogo"> ĐẶC KHU CÔ TÔ</h1>
+        </div>
+        <div id = "ntlg">
+            <div id = "nametag">
+                <p>CÔNG TRÌNH THANH NIÊN SỐ ĐẶC KHU CÔ TÔ</p>
+                <h1>Bản đồ số đặc khu Cô Tô</h1>
+            </div>
+            <div id ="imglogo">
+                <img src="/logo/Thanh niên.png" alt="doan">
+            </div>
+        </div>
+    </header>
+
+    <section class="video-section">
+        <div class="video-player-container">
+            <iframe 
+                src="https://www.youtube.com/embed/2Vg6lJStY7M?si=_OHOdHaWfbosr1Ru&autoplay=1&mute=1" 
+                title="Quảng Ninh" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Tìm theo tên/địa chỉ...">
+        <div class="custom-select" id="filterSelect">
+            <div class="selected">Tất cả</div>
+            <div class="options">
+                <div data-value="all">Tất cả</div>
+                <div data-value="hanhchinh">Hành chính</div>
+                <div data-value="yte">Y tế</div>
+                <div data-value="dulich">Du lịch</div>
+                <div data-value="tamlinh">Tâm linh</div>
+                <div data-value="dichvu">Bãi tắm</div>
+                <div data-value="truonghoc">Trường học</div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="card-container">
+        <!-- Du lịch -->
+         <div class="card" data-type="dulich" data-keywords="QG HCM">
+            <div class="card-img">
+                <img src="/img/Tượng đài.png">
+            </div>
+            <div class="card-text">
+                <h3 style="text-align: justify; font-size: 17px;">Khu Di tích lưu niệm<br>Hồ Chủ tịch trên đảo Cô Tô</h3>
+                <p>Khu 3, Đặc khu Cô Tô, Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/kC3kAEwhXXZKcvda8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Cột cờ.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Cột cờ đảo Thanh Lân</h3>
+                <p>Khu 2, Đặc khu Cô Tô, Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/kHqvJMbFjZ4jhoEcA" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Bến tàu.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Cầu cảng Cô Tô</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/TH7DJVTSrCMP1ap98" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Bến cảng Thanh Lân.png">
+            </div>
+            <div class="card-text">
+                <h3>Bến cảng Cô Tô - Thanh Lân</h3>
+                <p>Khu 1, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/p5QJiifPuznWkbT86" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Bán vé.png">
+            </div>
+            <div class="card-text">
+                <h3>Nhà bán vé tàu Cô Tô</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/V2nGr1mU6gjdTA527" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Dịch vụ thương mại.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Khu dịch vụ thương mại đặc khu</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/F9ff7M1sWswf9gxX8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Hải đăng.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Hải đăng Cô Tô</h3>
+                <p>Thôn Hải Tiến, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/UKTTWVJXVwJgUUxs5" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Bãi đá móng rồng.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bãi đá Móng Rồng</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/sPuHufcnoQbWhH4r8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Đồi ngắm sóng.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Đồi ngắm sóng Cô Tô</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/Gqe6Xb81GDiXjz7ZA" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Âu cảng.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Âu cảng Cô Tô</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/q19BNnB2JeC7Xw1j8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Rừng chỗi.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Rừng chõi nguyên sinh</h3>
+                <p>Thôn Nam Đồng, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/5bk561R3tgkud2n5A" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- du lịch tâm linh -->
+        <div class="card" data-type="dulich tamlinh">
+            <div class="card-img">
+                <img src="/img/Nhà thờ.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Nhà thờ Cô Tô</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/YmhpdNoF51hCpx2v6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich tamlinh">
+            <div class="card-img">
+                <img src="/img/Chùa trúc lâm.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Chùa Trúc Lâm Cô Tô</h3>
+                <p>Khu 1, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/gNxHKZGVGtGQk1DU8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich tamlinh">
+            <div class="card-img">
+                <img src="/img/Nhà thờ thanh lân.png">
+            </div>
+            <div class="card-text">
+                <h3>Nhà thờ Thanh Lân</h3>
+                <p>Thôn 2, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/Utf5GZytoXEPRMjq5" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- Bãi tắm -->
+        <div class="card" data-type="dulich baitam">
+            <div class="card-img">
+                <img src="/img/Hồng vàn.png">
+            </div>
+            <div class="card-text">
+                <h3>Bãi biển Hồng Vàn</h3>
+                <p>Thôn Hồng Hải, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/DTJ4LxT1zqZAAjqB7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich baitam">
+            <div class="card-img">
+                <img src="/img/Tình yêu.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bãi biển Tình yêu</h3>
+                <p>Khu 3, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/7NTaD21kSLLWXZCb9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich baitam">
+            <div class="card-img">
+                <img src="/img/Vàn chảy.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bãi biển Vàn Chảy</h3>
+                <p>Thôn Nam Hà, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/Vd7sV9obCqeAt2bB8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich baitam">
+            <div class="card-img">
+                <img src="/img/Bắc Vàn.png">
+            </div>
+            <div class="card-text">
+                <h3>Bãi tắm Bắc Vàn</h3>
+                <p>Thôn Nam Đồng, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/qMmTicif4arkBLYK9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich baitam">
+            <div class="card-img">
+                <img src="/img/BaChau.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bãi biển Ba Châu</h3>
+                <p>Thôn 1, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/vxvAQTK342zmn2b78" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich baitam">
+            <div class="card-img">
+                <img src="/img/Hải quân.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bãi biển Hải Quân</h3>
+                <p>Thôn 3, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/XHFmaG9ko6H1fSto8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich baitam">
+            <div class="card-img">
+                <img src="/img/Vụng tròn.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bãi biển Vụng Tròn</h3>
+                <p>Thôn 3, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/JbxRntWFRVuCytvD9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/San hô.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bãi Lặn San Hô</h3>
+                <p>Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/6ewpXqm9iw9EfuT87" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Đường cát.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Đường cát Tuỳ Duyên</h3>
+                <p>Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/8RgCRXqzh8LzsjLi6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Hòn cá chép.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Hòn cá chép</h3>
+                <p>Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/qmViTYAhNZaQELtq6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Cô tô con.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Đảo Cô Tô Con</h3>
+                <p>Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/tAtGXsZaGgfXLBJr7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- Hành chính -->
+        <div class="card" data-type="hanhchinh" data-keywords="Ủy ban nhân dân ubnd ủy ban nhân dân">
+            <div class="card-img">
+                <img src="/img/Ủy ban.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trụ sở Đảng uỷ - UBND đặc khu Cô Tô</h3>
+                <p>Khu 2, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/RqJ27Vb8CZg139wS7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh" data-keywords="Uỷ ủy ban mặt trận tổ quốc ">
+            <div class="card-img">
+                <img src="/img/MTTQ.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trụ sở HĐND - Cơ quan Uỷ ban MTTQ Việt Nam đặc khu Cô Tô</h3>
+                <p>Khu 3, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/7PX2NQXw6EgxDpsn9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>  
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/Hành chính công.png">
+            </div>
+            <div class="card-text">
+                <h3>Trung tâm phục vụ Hành chính công Cô Tô</h3>
+                <p>Khu 3, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/3thFdrPZb6fZJDZJ9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/Công AN.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Công an đặc khu Cô Tô</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/u854u9Mgh6gypamg7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/Bưu điện.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bưu điện Cô Tô</h3>
+                <p>Khu 2, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/ad6teNzrCSuWXYB77" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/Nhà văn hóa trung tâm.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Nhà văn hoá trung tâm</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/rDAzZ2zXB8VGukt46" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- y tế -->
+        <div class="card" data-type="yte">
+            <div class="card-img">
+                <img src="img/Bệnh viên.png">
+            </div>
+            <div class="card-text">
+                <h3>Bệnh viên đa khoa Vân Đồn CS 2</h3>
+                <p>Khu 1, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/7oxos5ebGxM3i2526" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="yte">
+            <div class="card-img">
+                <img src="img/Cô tô logo.png">
+            </div>
+            <div class="card-text">
+                <h3>Trạm y tế Thanh Lân</h3>
+                <p>Thôn 2, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/EakJcnNi2DNBNeP86" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+       <!-- Trường học <TH & THCS & THPT -->
+        <div class="card" data-type="truonghoc" data-keywords="Tiểu học Cấp 1 THCS Cấp 2 Trung học cơ sở">
+            <div class="card-img">
+                <img src="/img/TH và THCS cô tô.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường TH&THCS Cô Tô</h3>
+                <p>Khu 4, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/zWdmSp9dCUaB8AwQ9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Tiểu học Cấp 1 THCS Cấp 2 Trung học cơ sở">
+            <div class="card-img">
+                <img src="/img/2.png">
+            </div>
+            <div class="card-text">
+                <h3>Trường TH&THCS Đồng Tiến</h3>
+                <p>Thôn Hải Tiến, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/rZWATFtNxvfzw3s97" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Tiểu học Cấp 1 THCS Cấp 2 Trung học cơ sở">
+            <div class="card-img">
+                <img src="/img/3.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường TH&THCS Thanh Lân</h3>
+                <p>Thôn 2, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/t4UcHQSw4PCt9AWy8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="THPT thpt Cấp 3 Trung học phổ thông">
+            <div class="card-img">
+                <img src="/img/THPT cô tô.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường THPT Cô Tô</h3>
+                <p>Khu 3, Đặc khu Cô Tô, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/DfxwtLRDdpLh82kT8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div>
+            <div id = "logofooter">
+                <div id = "textlogof">
+                    <img src="/logo/logo.png" width="30px">
+                    <h3> ĐẶC KHU CÔ TÔ</h1>
+                </div>
+                <p>Đoàn TNCS Hồ Chí Minh đặc khu Cô Tô</p>
+                <div id = "Thongtincoban">
+                </div>
+            </div>
+
+            <div id = "tonglienlac">
+                <div class="lienlac">
+                    <a href="https://www.facebook.com/huyendoancoto?locale=vi_VN" class="the" target="_blank">
+                        <img src="/logo/ttct.jpg" width="20">
+                        Sức trẻ Cô Tô
+                    </a>
+                </div>
+                <div class="lienlac">
+                    <a href="https://www.facebook.com/ttvhcoto" class="the" target="_blank">
+                        <img src="/logo/ttvhct.jpg" width="20">
+                        Truyền thông và Văn hóa Cô Tô
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id = "in4">
+            <div id = "ThongtinF">
+                <h2>Giới thiệu đặc khu Cô Tô</h2>
+                <a href="https://tinhthanhvn.com/bando/quang-ninh/dac-khu-co-to">
+                    Thông tin chính đặc khu Cô Tô
+                </a>
+                <a href="https://baoquangninh.vn/dac-khu-co-to-khat-vong-trong-ky-nguyen-moi-3376102.html">
+                    Sức sống mới ở Đặc khu Cô Tô
+                </a>
+                <a href="https://baogialai.com.vn/dac-khu-cua-viet-nam-co-to-phen-dau-vinh-bac-bo-post329964.html">
+                    Đặc khu của Việt Nam: Cô Tô - Phên dậu vịnh Bắc bộ
+                </a>
+                <a href="https://dantri.com.vn/thoi-su/dac-khu-co-to-dat-muc-tieu-tro-thanh-hinh-mau-chuyen-doi-so-khu-vuc-hai-dao-20260122110425007.htm">
+                    Đặc khu Cô Tô đặt mục tiêu trở thành hình mẫu chuyển đổi số khu vực hải đảo
+                </a>
+                <a href="https://www.sggp.org.vn/dac-khu-co-to-san-sang-cho-ngay-hoi-lon-noi-dau-song-post842709.html">
+                    Đặc khu Cô Tô sẵn sàng cho ngày hội lớn nơi đầu sóng
+                </a>
+                <div id="audioToggleBtn" class="audio-toggle-btn">
+                    <h2>Âm nhạc địa phương</h2>
+                    <span class="arrow-icon">▼</span>
+                </div>
+
+                <div class="audio-player-container">
+                    
+                    <div id="songListContainer" class="song-list-container">
+                        
+                        <div class="song-item" 
+                            data-src="https://res.cloudinary.com/dmvldnkcx/video/upload/v1774272457/C%C3%B4_T%C3%B4_n%C6%A1i_s%C3%B3ng_g%E1%BB%8Di_m%E1%BA%B7t_tr%E1%BB%9Di_kpklso.mp4" 
+                            data-title="Cô Tô nơi sóng gọi mặt trời">
+                            🎵 Cô Tô nơi sóng gọi mặt trời
+                        </div>
+
+                    </div>
+
+                    <div id="playerWrapper" class="player-wrapper">
+                        
+                        <div class="player-header">
+                            <p id="currentPlayerTitle" class="current-player-title"></p>
+                            <span id="audioCloseBtn" class="audio-close-btn">×</span>
+                        </div>
+                    
+                        <audio id="localAudioPlayer" controls>
+                            Trình duyệt của bạn không hỗ trợ phát âm thanh.
+                        </audio>
+
+                    </div>
+                </div>
+
+                
+            </div>
+            <img src="/logo/bando.png">   
+        </div>
+        
+    </footer>
+    <div id = "last">Bản quyền © 2025 | Đoàn Thanh niên Cộng sản Hồ Chí Minh đặc khu Cô Tô</div>
+    <script src="script.js"></script>
+</body>
+</html>
